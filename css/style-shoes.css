@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*Navbar*/
+.navbar {
+    padding: 0 !important;
+    position: fixed !important;
+    margin: auto;
+    background-color: #111111;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar a {
+    font-size: 14px !important;
+}
+
+.navbar-brand img {
+    margin-left: 150px;
+    width: 80px;
+    height: 60px;
+}
+
+.nav-link.active {
+    color: #d81211 !important;
+}
+
+.nav-link:hover {
+    color: #d81211 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #111111 !important;
+}
+
+.navbar i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.dropdown-menu {
+    background-color: #d81211 !important;
+}
+
+.icon {
+    margin-right: 150px;
+}
+
+.icon i {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.icon i:hover {
+    color: #d81211;
+    transition: 300ms;
+}
+
+.navbar-nav li a {
+    margin: 10px;
+    letter-spacing: 2px;
+    color: white !important;
+    text-transform: capitalize;
+}
+
+.videobar {
+    padding: 0 !important;
+}
+
+.video {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+/*Sidenav*/
+.sidenav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+    float: right;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*Section-1*/
+.section-1 {
+    padding: 200px;
+}
+
+.section-1 h2 {
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+    font-size: 40px;
+}
+
+.section-1 .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+}
+
+.section-1 .dropdown {
+    padding: 20px;
+}
+
+.section-1 .btn {
+    width: 155px;
+}
+
+.section-1 .price p {
+    text-decoration: line-through !important;
+}
+
+.section-1 a {
+    text-decoration: none !important;
+    color: #111111;
+}
+
+.section-1 a:hover {
+    color: #111111;
+}
+
+.section-1 .card {
+    padding: 30px;
+    border: none;
+}
+
+.section-1 .row {
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 img {
+    width: 235px;
+    height: 235px;
+    transform: scale(1);
+    transition: all .3s ease-in;
+}
+
+.section-1 img:hover {
+    z-index: 4;
+    transform: scale(1.2);
+}
+
+.card-body {
+    padding: 20px 20px 20px 0px !important;
+}
+
+/*Section-2*/
+.section-2 {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+}
+
+.section-2 .row {
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 .row-lg-6:first-child {
+    padding-bottom: 30px;
+}
+
+.section-2 i {
+    padding: 10px;
+    color: white;
+    font-size: 36px;
+}
+
+.section-2 p {
+    color: white;
+}
+
+.section-2 h5 {
+    margin-top: 50px;
+    color: white;
+    font-weight: lighter;
+    font-size: x-small;
+}
